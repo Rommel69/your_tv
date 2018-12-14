@@ -12,12 +12,12 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    background-color: rgb(139,5,2);
+    background-color: #e52b4f;
 }
 
 .main-nav-list .main-nav-item a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 24px;
 }
@@ -27,6 +27,28 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.main-nav-list .main-nav-item a:hover {
+    color: #ffffff;
+}
+
+.main-nav-list .main-nav-item:hover {
+    border-color: white;
+}
+
+.main-nav .main-nav-item-logo {
+    border: none;
+    margin: 0;
+    width: 140px;
+    height: 60px;
+}
+
+.main-nav-item-logo .logo-pic {
+    width: 140px;
+    height: 60px;
 }
 
 .login-button {
@@ -53,10 +75,23 @@
     height: 30px;
 }
 
+.logo-pic {
+    width: 100px;
+    height: 50px;
+}
+
 body {
     font-family: 'Exo', sans-serif;
+    background-image: url("../interface_pics/bumblebee_ver6_xlg.jpg");
+
+}
+.news-section {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 header {
-    background-color: rgb(139,5,2);
+    background-color: #e52b4f;
 }

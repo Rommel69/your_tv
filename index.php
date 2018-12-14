@@ -20,8 +20,8 @@
         <header>
             <nav class="main-nav">
                 <ul class="main-nav main-nav-list">
-                    <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#">Logo</a></li>
-                    <li class="main-nav-list main-nav-item"><a href="#">Main</a></li>
+                    <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_4.png" alt=" "> </a></li>
+                    
                     <li class="main-nav-list main-nav-item"><a href="#">Movies</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
@@ -29,7 +29,7 @@
                 <ul class="user-sector">
                     <li class="user-sector-item">
                         <button class="login-button">
-                        <img class="user-log-icon" src="interface_pics/login-square-arrow-button-outline.svg"></button>
+                        <img class="user-log-icon" src="interface_pics/login-square-arrow-button-outline-black.svg" alt=" "></button>
                     </li>
                 </ul>
             </nav>
@@ -39,6 +39,21 @@
                 <div class="article">
                     <img class="promo-pic" src="#">
                     <h3 class="article-title">Title</h3>
+                    <b>date</b>
+                    <p class="article-text">Text text text text</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="article">
+                    <img class="promo-pic" src="#">
+                    <h3 class="article-title">Title</h3>
+                    <b>date</b>
+                    <p class="article-text">Text text text text</p>
+                    <a href="#">Read more...</a>
+                </div>
+                <div class="article">
+                    <img class="promo-pic" src="#">
+                    <h3 class="article-title">Title</h3>
+                    <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
                 </div>
