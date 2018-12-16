@@ -103,6 +103,7 @@
                     <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
 
                 </div>
+                <a class="content-sub-title" href="#"><b>Watch All</b></a>
             </section>
 
             <section class="series-section">

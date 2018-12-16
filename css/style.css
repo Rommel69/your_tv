@@ -183,6 +183,14 @@ body {
     box-shadow: 3px 5px 5px 3px black;
 }
 
+.content-sub-title {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    align-self: center;
+    margin-top: 30px;
+}
+
 .series-section {
     display: flex;
     background-color: white;
