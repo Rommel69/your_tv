@@ -27,23 +27,26 @@ body {
 
 .main-nav-list .main-nav-item a {
     text-decoration: none;
-    color: #fdc9d1;
+    color: #ffffff;
     font-weight: bold;
     font-size: 24px;
-    border-left: 1px solid #fdc9d1;
+    border-left: 1px solid #ffffff;
     width: 100px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
+
+
 .main-nav-list .main-nav-item {
     width: 100px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 
@@ -60,11 +63,12 @@ body {
     margin: 0;
     width: 140px;
     height: 60px;
+
 }
 
 .main-nav-item-logo .logo-pic {
-    width: 140px;
-    height: 45px;
+    width: 150px;
+    height: 50px;
 }
 
 .login-button {
@@ -189,6 +193,7 @@ body {
     font-size: 24px;
     align-self: center;
     margin-top: 30px;
+    border: 1px solid #b22d36;
 }
 
 .series-section {

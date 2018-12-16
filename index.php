@@ -20,7 +20,7 @@
         <header>
             <nav class="main-nav">
                 <ul class="main-nav main-nav-list">
-                    <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_5.png" alt=" "> </a></li>
+                    <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
 
                     <li class="main-nav-list main-nav-item"><a href="#">Movies</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
