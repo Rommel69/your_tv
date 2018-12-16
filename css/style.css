@@ -31,6 +31,13 @@ body {
     color: black;
     font-weight: bold;
     font-size: 24px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .main-nav-list .main-nav-item {
     width: 100px;
@@ -38,17 +45,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
 }
+
+
 
 .main-nav-list .main-nav-item a:hover {
     color: #ffffff;
-}
-
-.main-nav-list .main-nav-item:hover {
     border-color: white;
 }
+
+
 
 .main-nav .main-nav-item-logo {
     border: none;
