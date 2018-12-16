@@ -190,10 +190,21 @@ body {
 .content-sub-title {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     align-self: center;
-    margin-top: 30px;
-    border: 1px solid #b22d36;
+    margin-top: 23px;
+    border: 2px solid #b22d36;
+    padding: 10px;
+    background-color: #b22d36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 1060px;
+}
+
+.content-sub-title:hover {
+    background-color: transparent;
+    color: #b22d36;
 }
 
 .series-section {
@@ -219,6 +230,31 @@ body {
     margin-top: 50px;
 }
 
+.series-url {
+    margin-right: 20px;
+    margin-top: 15px;
+    box-shadow: 3px 5px 5px 3px black;
+}
+
+.series-url, .series-poster {
+    width: 100px;
+    height: 150px;
+    display: flex;
+}
+
+.series-content {
+    display: flex;
+    flex-direction: row;
+    width: 1060px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.series-url:nth-child(9n) {
+    margin-right: 0;
+}
+
 .movie-url:nth-child(9n) {
     margin-right: 0;
 }
@@ -236,6 +272,9 @@ footer {
     height: 85px;
     width: 1200px;
     margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
 }
 
 header {
