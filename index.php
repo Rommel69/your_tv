@@ -39,21 +39,21 @@
                 <h2 class="news-title">Recent News</h2>
                 <div class="articles-container">
                 <div class="article">
-                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <img class="promo-pic" src="posters_pics/overlord_ver4_xlg.jpg">
                     <a class="news-article-url" href="#"><h3 class="article-title">Transformers has released!</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
                 </div>
                 <div class="article">
-                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <img class="promo-pic" src="posters_pics/overlord_ver4_xlg.jpg">
                     <a class="news-article-url" href="#"><h3 class="article-title">Title</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
                 </div>
                 <div class="article">
-                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <img class="promo-pic" src="posters_pics/overlord_ver4_xlg.jpg">
                     <a class="news-article-url" href="#"><h3 class="article-title">Title</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
@@ -63,12 +63,52 @@
             </section>
 
             <section class="contents-section">
-                <a class="movie-url" href="#"><img src="#"></a>
+                <h2 class="contents-title">New Movies</h2>
+                <div class="contents-container">
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+
+                </div>
             </section>
 
         </main>
 
         <footer>
+            <div class="footer-content">
             <div class="contact-adress">
                 <p class="adress-content">
                     You contact to us with Email below.
@@ -80,6 +120,7 @@
                 <div>Icons made by <a href="https://www.flaticon.com/authors/catalin-fertu" title="Catalin Fertu">Catalin Fertu</a> from <a href="https://www.flaticon.com/"
                      title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"  title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
                 </p>
+            </div>
             </div>
         </footer>
     </body>
