@@ -21,7 +21,7 @@
             <nav class="main-nav">
                 <ul class="main-nav main-nav-list">
                     <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_4.png" alt=" "> </a></li>
-                    
+
                     <li class="main-nav-list main-nav-item"><a href="#">Movies</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
@@ -36,26 +36,29 @@
         </header>
         <main>
             <section class="news-section">
+                <h2 class="news-title">Recent News</h2>
+                <div class="articles-container">
                 <div class="article">
-                    <img class="promo-pic" src="#">
-                    <h3 class="article-title">Title</h3>
+                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <a class="news-article-url" href="#"><h3 class="article-title">Transformers has released!</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
                 </div>
                 <div class="article">
-                    <img class="promo-pic" src="#">
-                    <h3 class="article-title">Title</h3>
+                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <a class="news-article-url" href="#"><h3 class="article-title">Title</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
                 </div>
                 <div class="article">
-                    <img class="promo-pic" src="#">
-                    <h3 class="article-title">Title</h3>
+                    <img class="promo-pic" src="interface_pics/Miami.jpg">
+                    <a class="news-article-url" href="#"><h3 class="article-title">Title</h3></a>
                     <b>date</b>
                     <p class="article-text">Text text text text</p>
                     <a href="#">Read more...</a>
+                </div>
                 </div>
             </section>
 
