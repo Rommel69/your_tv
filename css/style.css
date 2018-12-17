@@ -353,9 +353,9 @@ Pop-up Section >>>
     width: 30px;
     height: 30px;
     cursor: pointer;
-    position: fixed;
-    left: 1465px;
-    top: 165px;
+    position: relative;
+    left: 343px;
+    top: -20px;
 }
 
 .pop-up-cross::before {
