@@ -259,7 +259,124 @@ body {
     margin-right: 0;
 }
 
+/**
+Pop-up Section >>>
+ */
 
+.pop-up {
+    display: flex;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    left: 40%;
+    top: 20%;
+    box-shadow: 2px 1px 11px 1px black;
+}
+
+.pop-up-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 320px;
+}
+
+.pop-up-title {
+    color: #b22d36;
+    font-size: 24px;
+    align-self: center;
+}
+
+.pop-up-form {
+    display: flex;
+    flex-direction: column;
+    color: #b22d36;
+    font-weight: bold;
+    border-left: 2px dashed #b22d36;
+    border-right: 2px dashed #b22d36;
+}
+
+.field-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+
+}
+
+.pop-up-login, .pop-up-password {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #b22d36;
+}
+
+.pop-up-label {
+    margin-bottom: 10px;
+}
+
+.pop-up-submit {
+    width: 200px;
+    height: 40px;
+    background-color: #b22d36;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pop-up-submit:hover {
+    background-color: white;
+    color: #b22d36;
+    border-color: #b22d36;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #b22d36;
+    width: 176px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #b22d36;
+}
+
+.forgot-pass:hover {
+    background-color: white;
+    border-color: #b22d36;
+    color: #b22d36;
+}
+
+.pop-up-cross {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: fixed;
+    left: 1465px;
+    top: 165px;
+}
+
+.pop-up-cross::before {
+    content: " ";
+    border: 2px solid #b22d36;
+    transform: rotate(45deg);
+    position: fixed;
+    width: 32px;
+}
+
+.pop-up-cross::after {
+    content: " ";
+    border: 2px solid #b22d36;
+    transform: rotate(-45deg);
+    position: fixed;
+    width: 32px;
+}
+
+/**
+Pop-up Section <<<
+ */
 
 footer {
     background-color: #b22d36;

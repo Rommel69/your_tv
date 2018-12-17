@@ -33,6 +33,33 @@
                     </li>
                 </ul>
             </nav>
+            <!--Pop-UP Section -->
+
+            <div class="pop-up">
+                <div class="pop-up-container">
+                    <h2 class="pop-up-title">Welcome!</h2>
+                    <span class="pop-up-cross"></span>
+                    <form class="pop-up-form" action=" " method="post">
+                        <div class="field-container">
+                            <label class="pop-up-label" for="loginField">Enter your login</label>
+                            <input class="pop-up-login" type="text" name="login" id="loginField" required>
+                        </div>
+                        <div class="field-container">
+                            <label class="pop-up-label" for="Pswrd">Enter your password</label>
+                            <input class="pop-up-password" type="password" name="password" id="Pswrd" required>
+                        </div>
+                        <div class="field-container">
+                            <input class="pop-up-submit" type="submit" name="submit" value="Submit">
+                            <a     class="forgot-pass"   href="#">I forgot my password!</a>
+                            <span class="or">OR</span>
+                            <a class="forgot-pass pop-up-signup" href="#">Sign Up</a>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <!--Pop-UP Section -->
         </header>
         <main>
             <section class="news-section">
