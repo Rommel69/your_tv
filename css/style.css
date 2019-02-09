@@ -374,6 +374,11 @@ Pop-up Section >>>
     width: 32px;
 }
 
+/** pop-up switcher **/
+.pop-up {
+    display: none;
+}
+
 /**
 Pop-up Section <<<
  */
@@ -397,3 +402,16 @@ footer {
 header {
     background-color: #b22d36;
 }
+
+/** Movie section styles **/
+
+.movie-section {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    background-color: white;
+
+}
+
+
+/**----------------------**/

@@ -49,7 +49,7 @@
                             <input class="pop-up-password" type="password" name="password" id="Pswrd" required>
                         </div>
                         <div class="field-container">
-                            <input class="pop-up-submit" type="submit" name="submit" value="Submit">
+                            <input class="pop-up-submit pop-up-signup" type="submit" name="submit" value="Submit">
                             <a     class="forgot-pass"   href="#">I forgot my password!</a>
                             <span class="or">OR</span>
                             <a class="forgot-pass pop-up-signup" href="#">Sign Up</a>
