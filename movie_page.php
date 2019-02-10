@@ -65,31 +65,41 @@
 <section class="movie-section">
     <div class="movie-content-wrapper">
         <div class="movie-wrapper">
+            <div class="movie-top-wrapper">
             <div class="movie-page top-part">
-                <img class="movie-poster" src="#" alt="">
-                <h2 class="movie-title">Title</h2>
+                <img class="movie-poster" src="posters_pics/series_posters/the_last_kingdom_poster.jpg" alt="">
+
             </div>
             <div class="movie-page middle-part">
-                <p class="movie-descr movie-year">Year:             </p>
-                <p class="movie-descr movie-director">Director:     </p>
-                <p class="movie-descr movie-actors">Actors:         </p>
-                <p class="movie-descr movie-scenarist">Scenarist:   </p>
-                <p class="movie-descr movie-producer">Producer:     </p>
-                <p class="movie-descr movie-artist">Artist:         </p>
-                <p class="movie-descr movie-editor">Editor:         </p>
-                <p class="movie-descr movie-operator">Operator:     </p>
-                <p class="movie-descr movie-genre">Genre:           </p>
-                <p class="movie-descr movie-rdate">Release Date World:</p>
-                <p class="movie-descr movie-country">Country:       </p>
-                <p class="movie-descr movie-length">Movie Length:   </p>
-                <p class="movie-descr movie-slogan">Slogan:         </p>
+                <h3 class="movie-title">The Last Kingdom</h3>
+                <p class="movie-descr movie-year">Year: 2019            </p>
+                <p class="movie-descr movie-director">Director: Radja Kutropali    </p>
+                <p class="movie-descr movie-actors">Actors: Sed consequat, Sed consequat, Sed consequat        </p>
+                <p class="movie-descr movie-scenarist">Scenarist: Sed consequat   </p>
+                <p class="movie-descr movie-producer">Producer: Sed consequat     </p>
+                <p class="movie-descr movie-artist">Artist: Sed consequat        </p>
+                <p class="movie-descr movie-editor">Editor: Sed consequat         </p>
+                <p class="movie-descr movie-operator">Operator: Sed consequat     </p>
+                <p class="movie-descr movie-genre">Genre: Porno, Action          </p>
+                <p class="movie-descr movie-rdate">Release Date World: 02.08.2019</p>
+                <p class="movie-descr movie-country">Country: USA,England      </p>
+                <p class="movie-descr movie-length">Movie Length: 2:19    </p>
+                <p class="movie-descr movie-slogan">Slogan: Sed consequatSed consequatSed consequat        </p>
 
+            </div>
             </div>
             <div class="description-sector">
                 <h3 class="description-sector-header">Description:</h3>
-                <p class="description-text">Text Text Text TextText Text Text TextText Text Text Text
-                    Text Text Text TextText Text Text TextText Text Text Text
-                    Text Text Text TextText Text Text TextText Text Text Text</p>
+                <p class="description-text">Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                    magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                    nonummy id, metus.
+                    Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                    magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                    nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                    magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                    nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                    magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                    nonummy id, metus.</p>
             </div>
             <div class="screens-sector">
                 <img class="movie-screen" alt=" " src="posters_pics/series_posters/the_last_kingdom_poster.jpg">
@@ -99,7 +109,7 @@
             </div>
 
             <div class="player-sector">
-                <video class="movie-player" controls width="850">
+                <video class="movie-player" controls width="1160">
                     <source src="test_videos/Boom Boom Satellites All in the Day (live) [360p].mp4">
                     Sorry, your browser doesn't support embedded videos.
                 </video>

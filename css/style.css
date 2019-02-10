@@ -413,5 +413,90 @@ header {
 
 }
 
+.movie-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-page {
+    display: flex;
+}
+
+.movie-poster {
+    width: 380px;
+    height: 550px;
+    margin-left: 20px;
+    margin-top: 15px;
+    box-shadow: 3px 5px 5px 3px black;
+}
+
+.movie-title {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.movie-top-wrapper {
+    display: flex;
+}
+
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.movie-descr {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.description-sector {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    border-bottom: 2px solid #b22d36;
+}
+
+.description-sector-header {
+    margin: 0;
+}
+
+.description-text {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.screens-sector {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #b22d36;
+
+}
+
+.movie-screen {
+    width: 150px;
+    height: 160px;
+    margin-bottom: 50px;
+}
+
+.player-sector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-player {
+
+}
+
+
 
 /**----------------------**/
