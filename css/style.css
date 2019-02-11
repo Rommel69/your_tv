@@ -438,12 +438,14 @@ header {
 
 .movie-top-wrapper {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .middle-part {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
+    width: 760px;
 }
 
 .movie-descr {
@@ -491,12 +493,79 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-bottom: 2px solid #b22d36;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .movie-player {
 
 }
 
+.download-movie {
+    width: 100px;
+    height: 20px;
+    background-color: #b22d36;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-self: end;
+    margin-bottom: 30px;
+}
+
+
+.user-comment {
+    display: flex;
+    margin: 0;
+    width: 1160px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-bottom: 2px solid #b22d36;
+    min-height: 100px;
+    justify-content: space-between;
+
+}
+
+.user-avatar-pic {
+    width: 80px;
+    height: 80px;
+}
+
+.rating-sector {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 2px dashed #b22d36;
+    width: 380px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-score {
+    width: 135px;
+    height: 25px;
+    background-color: #b22d36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.movie-data {
+    font-weight: bold;
+}
+
+.user-comment-text {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+}
 
 
 /**----------------------**/

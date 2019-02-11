@@ -72,21 +72,33 @@
             </div>
             <div class="movie-page middle-part">
                 <h3 class="movie-title">The Last Kingdom</h3>
-                <p class="movie-descr movie-year">Year: 2019            </p>
-                <p class="movie-descr movie-director">Director: Radja Kutropali    </p>
-                <p class="movie-descr movie-actors">Actors: Sed consequat, Sed consequat, Sed consequat        </p>
-                <p class="movie-descr movie-scenarist">Scenarist: Sed consequat   </p>
-                <p class="movie-descr movie-producer">Producer: Sed consequat     </p>
-                <p class="movie-descr movie-artist">Artist: Sed consequat        </p>
-                <p class="movie-descr movie-editor">Editor: Sed consequat         </p>
-                <p class="movie-descr movie-operator">Operator: Sed consequat     </p>
-                <p class="movie-descr movie-genre">Genre: Porno, Action          </p>
-                <p class="movie-descr movie-rdate">Release Date World: 02.08.2019</p>
-                <p class="movie-descr movie-country">Country: USA,England      </p>
-                <p class="movie-descr movie-length">Movie Length: 2:19    </p>
-                <p class="movie-descr movie-slogan">Slogan: Sed consequatSed consequatSed consequat        </p>
+                <p class="movie-descr movie-year"><span class="movie-data">Year:</span>  2019            </p>
+                <p class="movie-descr movie-director"><span class="movie-data">Director:</span> Radja Kutropali    </p>
+                <p class="movie-descr movie-actors"><span class="movie-data">Actors:</span> Sed consequat, Sed consequat, Sed consequat        </p>
+                <p class="movie-descr movie-scenarist"><span class="movie-data">Scenarist:</span> Sed consequat   </p>
+                <p class="movie-descr movie-producer"><span class="movie-data">Producer:</span> Sed consequat     </p>
+                <p class="movie-descr movie-artist"><span class="movie-data">Artist:</span> Sed consequat        </p>
+                <p class="movie-descr movie-editor"><span class="movie-data">Editor:</span> Sed consequat         </p>
+                <p class="movie-descr movie-operator"><span class="movie-data">Operator:</span> Sed consequat     </p>
+                <p class="movie-descr movie-genre"><span class="movie-data">Genre:</span> Porno, Action          </p>
+                <p class="movie-descr movie-rdate"><span class="movie-data">Release Date World:</span> 02.08.2019</p>
+                <p class="movie-descr movie-country"><span class="movie-data">Country:</span> USA,England      </p>
+                <p class="movie-descr movie-length"><span class="movie-data">Movie Length:</span> 2:19    </p>
+                <p class="movie-descr movie-slogan"><span class="movie-data">Slogan:</span> Sed consequatSed consequatSed consequat        </p>
 
             </div>
+            <div class="rating-sector">
+                <div class="rating-item imdb">
+                    <span>IMDB</span>
+                </div>
+                <div class="rating-item metacritic">
+                    <span>Metacritic</span>
+                </div>
+                <div class="rating-item user-score">
+                    <span>User Score: 90%</span>
+                </div>
+            </div>
+
             </div>
             <div class="description-sector">
                 <h3 class="description-sector-header">Description:</h3>
@@ -118,25 +130,67 @@
 
             <div class="movie-page bottom-part">
                 <div class="comments-sector">
-                    <div class="user-comment">
                         <div class="user-comment-wrapper">
-                            <div class="user-avatar">
-                                <img class="user-avatar-pic" src="#" alt=" ">
-                            </div>
                             <div class="user-comment-container">
-                                <p class="user-comment-text">This is the best movie that I have ever seen!</p>
-                            </div>
-                            <div class="user-comment-dateCont">
-                                <b class="user-comment-date">02.08.19</b>
-                                <b class="user-comment-like">0</b>
-                                <b class="user-comment-dislike">0</b>
+                                <blockquote class="user-comment">
+                                    <div class="user-avatar-pic">
+                                        <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
+                                        <cite class="comment-author-name">
+                                            John Doe
+                                        </cite>
+                                    </div>
+                                    <p class="user-comment-text"> Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                                        magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                                        nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                                        Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                                        magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                                        nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
+                                        magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
+                                        nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida</p>
+                                    <div class="user-comment-dateCont">
+                                        <b class="user-comment-date">02.08.19</b>
+                                        <b class="user-comment-like">0</b>
+                                        <b class="user-comment-dislike">0</b>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="user-comment">
+                                    <div class="user-avatar-pic">
+                                        <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
+                                        <cite class="comment-author-name">
+                                            Jean Doe
+                                        </cite>
+                                    </div>
+                                    <p class="user-comment-text">This is the best movie that I have ever seen!</p>
+                                    <div class="user-comment-dateCont">
+                                        <b class="user-comment-date">02.08.19</b>
+                                        <b class="user-comment-like">0</b>
+                                        <b class="user-comment-dislike">0</b>
+                                    </div>
+                                </blockquote>
+                                <blockquote class="user-comment">
+                                    <div class="user-avatar-pic">
+                                        <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
+                                        <cite class="comment-author-name">
+                                            Adolf Hitler
+                                        </cite>
+                                    </div>
+                                    <p class="user-comment-text">This is the best movie that I have ever seen!</p>
+                                    <div class="user-comment-dateCont">
+                                        <b class="user-comment-date">02.08.19</b>
+                                        <b class="user-comment-like">0</b>
+                                        <b class="user-comment-dislike">0</b>
+                                    </div>
+                                </blockquote>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
             <div class="leave-comment-sector">
-                <textarea class="write-comment" cols="14" rows="6"></textarea>
+                <form method="post" class="comment-form" action="#">
+                    <textarea class="write-comment" cols="14" rows="6"></textarea>
+                    <input type="submit" class="submit-comment" value="Submit">
+                </form>
+
             </div>
         </div>
     </div>
