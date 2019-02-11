@@ -67,7 +67,7 @@
         <div class="movie-wrapper">
             <div class="movie-top-wrapper">
             <div class="movie-page top-part">
-                <img class="movie-poster" src="posters_pics/series_posters/the_last_kingdom_poster.jpg" alt="">
+                <img class="movie-page-poster" src="posters_pics/series_posters/the_last_kingdom_poster.jpg" alt="">
 
             </div>
             <div class="movie-page middle-part">
