@@ -14,7 +14,7 @@
     <head>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/normalize.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Exo:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700" rel="stylesheet">
     </head>
     <body>
         <header>

@@ -102,9 +102,12 @@
             </div>
             <div class="description-sector">
                 <h3 class="description-sector-header">Description:</h3>
-                <p class="description-text">Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
-                    magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
-                    nonummy id, metus.
+                <p class="description-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                    , quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
                     magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed,
                     nonummy id, metus.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida
@@ -133,7 +136,7 @@
                         <div class="user-comment-wrapper">
                             <div class="user-comment-container">
                                 <blockquote class="user-comment">
-                                    <div class="user-avatar-pic">
+                                    <div class="user-avatar-picCon">
                                         <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
                                         <cite class="comment-author-name">
                                             John Doe
@@ -154,7 +157,7 @@
                                     </div>
                                 </blockquote>
                                 <blockquote class="user-comment">
-                                    <div class="user-avatar-pic">
+                                    <div class="user-avatar-picCon">
                                         <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
                                         <cite class="comment-author-name">
                                             Jean Doe
@@ -168,7 +171,7 @@
                                     </div>
                                 </blockquote>
                                 <blockquote class="user-comment">
-                                    <div class="user-avatar-pic">
+                                    <div class="user-avatar-picCon">
                                         <img class="user-avatar-pic" src="avatars/587a4726c6251d524814eb56e1ba5cd8.jpeg" alt=" ">
                                         <cite class="comment-author-name">
                                             Adolf Hitler
@@ -185,10 +188,10 @@
                         </div>
                 </div>
             </div>
-            <div class="leave-comment-sector">
+            <div class="leave-comment-form">
                 <form method="post" class="comment-form" action="#">
                     <textarea class="write-comment" cols="14" rows="6"></textarea>
-                    <input type="submit" class="submit-comment" value="Submit">
+                    <input type="submit" class="submit-comment" value="Submit Review">
                 </form>
 
             </div>
