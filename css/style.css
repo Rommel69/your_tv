@@ -532,6 +532,7 @@ header {
 .user-avatar-pic {
     width: 80px;
     height: 80px;
+    border: 1px solid #b22d36;
 }
 
 .rating-sector {
@@ -612,3 +613,76 @@ header {
 
 
 /**----------------------**/
+
+/** Library part **/
+
+
+.library-part {
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+}
+
+.checkbox-filter-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 175px;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 2px dashed #b22d36;
+    justify-content: space-around;
+
+}
+
+.filter-header {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.filter-button {
+    border: none;
+    background-color: #b22d36;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.library-movie-item {
+    display: flex;
+    margin-bottom: 25px;
+    margin-left: 5px;
+}
+
+.movie-info-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    width: 160px;
+}
+
+.movie-name {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.library-movie-poster {
+    width: 150px;
+    height: 240px;
+}
+
+.library-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 18px;
+}
+
+
+/**---------------------**/

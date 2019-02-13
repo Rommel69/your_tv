@@ -22,7 +22,7 @@
                 <ul class="main-nav main-nav-list">
                     <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
 
-                    <li class="main-nav-list main-nav-item"><a href="#">Movies</a></li>
+                    <li class="main-nav-list main-nav-item"><a href="movie_library_part.php">Movies</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
                     <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
                 </ul>
@@ -92,7 +92,7 @@
             <section class="contents-section">
                 <h2 class="contents-title">New Movies</h2>
                 <div class="contents-container">
-                    <a class="movie-url" href="movie_page_git.html"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
+                    <a class="movie-url" href="movie_page.php"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
                     <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
                     <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
                     <a class="movie-url" href="#"><img class="movie-poster" src="posters_pics/overlord_ver4_xlg.jpg"></a>
