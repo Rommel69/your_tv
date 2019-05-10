@@ -73,14 +73,14 @@
 
         </form>
         <div class="library-pagination">
-            <a class="movie-pagination-container">
+            <div class="movie-pagination-container">
                 <a class="page" href="#">1</a>
                 <a class="page" href="#">2</a>
                 <a class="page" href="#">3</a>
                 <a class="page" href="#">4</a>
                 <a class="page" href="#">5</a>
                 <a class="page" href="#">6</a>
-            </a>
+            </div>
         </div>
     </aside>
     <div class="library-content">
