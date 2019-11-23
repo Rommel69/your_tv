@@ -1,5 +1,16 @@
 <?php
 
+$page = $_GET['page'];
+$title = '';
+
+switch ($page) {
+    case 'main': $title = "Main Page"; break;
+    case 'movies': $title = "Movies"; break;
+    default: $title = "Main Page";
+}
+
+
+
 ?>
 
 <!DOCTYPE html>
@@ -8,15 +19,15 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/normalize.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700" rel="stylesheet">
-    <title></title>
+    <title><?=$title?></title>
 </head>
 <body>
 <header>
     <nav class="main-nav">
         <ul class="main-nav main-nav-list">
-            <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="#"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
+            <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="index.php?page=main"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
 
-            <li class="main-nav-list main-nav-item"><a href="movie_library_part.php">Movies</a></li>
+            <li class="main-nav-list main-nav-item"><a href="index.php?page=movies">Movies</a></li>
             <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
             <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
         </ul>
@@ -58,12 +69,20 @@
 <main>
 
     <?
-    include_once 'news_section_index.php';
-    include_once 'movies_section_index.php';
-    include_once 'series_section_index.php';
+    //include_once 'news_section_index.php';
+    //include_once 'movies_section_index.php';
+    //include_once 'series_section_index.php';
+    //include 'movies_page.php';
+
+    switch ($page) {
+        case 'main': include 'index_page_content.php';break;
+        case 'movies': include 'movies_page.php';  break;
+        default: include 'index_page_content.php';
+    }
 
 
     ?>
+
 
 </main>
 

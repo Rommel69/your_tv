@@ -259,6 +259,65 @@ body {
     margin-right: 0;
 }
 
+/** Movie Page Style section */
+
+ .movies-page {
+
+     min-height: 2000px;
+}
+
+.films-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: 1200px;
+    height: 1850px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.movie-content {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.film-item {
+    display: flex;
+    width: 230px;
+    height: 300px;
+}
+
+.film-item-top {
+    flex-direction: column-reverse;
+}
+
+.film-item-mid {
+    flex-direction: column;
+}
+
+.film-poster {
+    width: 200px;
+    height: 300px;
+}
+
+.film-url {
+    width: 200px;
+    height: 300px;
+
+}
+
+.film-title-url {
+    color: black;
+    text-decoration: none;
+}
+
+
+/** ------------------------- */
+
 /**
 Pop-up Section >>>
  */
