@@ -1,7 +1,55 @@
 <?php ?>
 
 
+<div class="page-container">
+    <aside class="film-filter-zone">
+    <div class="filter-container">
 
+
+        <div class="filter-form-container">
+            <form action="" method="post">
+                <fieldset class="form-fieldset">
+                    <legend class="form-legend">Filters</legend>
+                    <label for="filter-year">Year:</label>
+                    <select class="filter-form-item filter-select-year" id="filter-year">
+                        <option>1990</option>
+                        <option>2000</option>
+                        <option>2010</option>
+                    </select>
+                    <label class="filter-genre" for="filter-genre">Genre: </label>
+                    <select class="filter-form-item filter-select-genre" id="filter-genre">
+                        <option>Action</option>
+                        <option>Horror</option>
+                        <option>Fantastic</option>
+                    </select>
+                    <label class="filter-country" for="filter-country">Country:</label>
+                    <select class="filter-form-item filter-form-country" id="filter-country">
+                        <option>U.S</option>
+                        <option>Japan</option>
+                        <option>UK</option>
+                    </select>
+                    <label class="filter-hq" for="hq">High Quolity: </label>
+                    <input type="checkbox" name="hq-button" id="hq">
+
+
+
+
+                </fieldset>
+                <input type="submit" name="submit-filter" class="submit-filter-button" value="Show">
+
+
+            </form>
+        </div>
+
+    </div>
+        <div class="pages-container">
+            <a class="page-url" href="#">1</a>
+            <a class="page-url" href="#">2</a>
+            <a class="page-url" href="#">3</a>
+            <a class="page-url" href="#">4</a>
+            <a class="page-url" href="#">200</a>
+        </div>
+    </aside>
 <section class="contents-section movies-page">
 
     <div class="films-container">
@@ -114,4 +162,9 @@
         </div>
     </div>
 
+
+
 </section>
+
+
+</div>

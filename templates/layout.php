@@ -28,7 +28,7 @@ switch ($page) {
             <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="index.php?page=main"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
 
             <li class="main-nav-list main-nav-item"><a href="index.php?page=movies">Movies</a></li>
-            <li class="main-nav-list main-nav-item"><a href="#">Series</a></li>
+            <li class="main-nav-list main-nav-item"><a href="index.php?page=series">Series</a></li>
             <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
         </ul>
         <ul class="user-sector">
@@ -57,7 +57,7 @@ switch ($page) {
                     <input class="pop-up-submit pop-up-signup" type="submit" name="submit" value="Submit">
                     <a     class="forgot-pass"   href="#">I forgot my password!</a>
                     <span class="or">OR</span>
-                    <a class="forgot-pass pop-up-signup" href="#">Sign Up</a>
+                    <a class="forgot-pass pop-up-signup" href="index.php?page=register_form">Sign Up</a>
                 </div>
             </form>
 
@@ -69,15 +69,14 @@ switch ($page) {
 <main>
 
     <?
-    //include_once 'news_section_index.php';
-    //include_once 'movies_section_index.php';
-    //include_once 'series_section_index.php';
-    //include 'movies_page.php';
+
 
     switch ($page) {
-        case 'main': include 'index_page_content.php';break;
-        case 'movies': include 'movies_page.php';  break;
-        default: include 'index_page_content.php';
+        case 'main':            include 'index_page_content.php';   break;
+        case 'movies':          include 'movies_page.php';          break;
+        case 'series':          include 'series_page.php';          break;
+        case 'register_form':   include 'register_page.php';        break;
+        default:                include 'index_page_content.php';
     }
 
 

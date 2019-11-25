@@ -263,7 +263,7 @@ body {
 
  .movies-page {
 
-     min-height: 2000px;
+     min-height: 1300px;
 }
 
 .films-container {
@@ -288,7 +288,6 @@ body {
 .film-item {
     display: flex;
     width: 230px;
-    height: 300px;
 }
 
 .film-item-top {
@@ -297,6 +296,7 @@ body {
 
 .film-item-mid {
     flex-direction: column;
+    align-self: center;
 }
 
 .film-poster {
@@ -315,8 +315,127 @@ body {
     text-decoration: none;
 }
 
+.movie-title {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.film-filter-zone {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 5px 10px 3px black;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+}
+
+.form-fieldset {
+    display: flex;
+    border: 1px solid #b22d36;
+    padding: 0;
+    margin: 0;
+    padding: 30px;
+    border-bottom: 0;
+}
+
+.form-legend {
+    margin: 0  auto;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.filter-form-item {
+    display: flex;
+    border: none;
+    color: #b22d36;
+    margin-bottom: 5px;
+}
+
+.form-fieldset label {
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.submit-filter-button {
+    border: 0;
+    background-color: #b22d36;
+    color: white;
+    text-transform: uppercase;
+    width: 607px;
+    height: 40px;
+    border-top: 1px solid white;
+    cursor: pointer;
+
+}
+
+.submit-filter-button:hover {
+    background-color: white;
+    color: #b22d36;
+    border: 1px solid #b22d36;
+    border-top: none;
+
+}
+
+.pages-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -250px;
+}
+
+.pages-container a {
+    color: #b22d36;
+}
+
 
 /** ------------------------- */
+
+/** register form page **/
+
+.register-page {
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form-fieldset {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-width: 2px;
+}
+
+.register-form-fieldset label {
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-form-item {
+    border: 1px solid #b22d36;
+    height: 30px;
+    width: 250px;
+}
+
+.register-form-container  .register-form-submit {
+    border: 2px solid #b22d36;
+    border-top: none;
+}
+
+
+
+/** --------------------------*/
 
 /**
 Pop-up Section >>>
