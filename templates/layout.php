@@ -4,9 +4,12 @@ $page = $_GET['page'];
 $title = '';
 
 switch ($page) {
-    case 'main': $title = "Main Page"; break;
-    case 'movies': $title = "Movies"; break;
-    default: $title = "Main Page";
+    case 'main':            $title = "Main Page";               break;
+    case 'movies':          $title = "Movies";                  break;
+    case 'series':          $title = "Series";                  break;
+    case "register_form":   $title = "Sign Up";                 break;
+    case 'user_info':       $title = "Profile";                 break;
+    default:                $title = "Main Page";
 }
 
 
