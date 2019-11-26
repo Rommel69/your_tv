@@ -433,9 +433,55 @@ body {
     border-top: none;
 }
 
-
-
 /** --------------------------*/
+
+
+/** User Profile Page         */
+
+.user-profile-content {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-top {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.user-profile-image {
+    order: 1;
+    width: 300px;
+    height: 315px;
+    box-shadow: 10px 9px 10px 3px gray;
+}
+
+.user-profile-name {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.user-profile-mid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.user-profile-info {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.user-favorites-zone {
+    border: 2px dashed #b22d36;
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    margin: 100px 50px 0px 50px;
+}
+
+/** ---------------------------*/
 
 /**
 Pop-up Section >>>

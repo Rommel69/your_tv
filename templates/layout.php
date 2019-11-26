@@ -27,14 +27,17 @@ switch ($page) {
         <ul class="main-nav main-nav-list">
             <li class="main-nav-list main-nav-item  main-nav-item-logo"><a href="index.php?page=main"><img class="logo-pic" src="interface_pics/YT_logo_6.png" alt=" "> </a></li>
 
-            <li class="main-nav-list main-nav-item"><a href="index.php?page=movies">Movies</a></li>
-            <li class="main-nav-list main-nav-item"><a href="index.php?page=series">Series</a></li>
-            <li class="main-nav-list main-nav-item"><a href="#">Forum</a></li>
+            <?
+            include 'main_menu.php';
+                draw_menu($main_menu, false);
+            ?>
+
         </ul>
         <ul class="user-sector">
             <li class="user-sector-item">
-                <button class="login-button">
-                    <img class="user-log-icon" src="interface_pics/login-square-arrow-button-outline.svg" alt=" "></button>
+               <button class="login-button">
+                    <img class="user-log-icon" src="interface_pics/login-square-arrow-button-outline.svg" alt=" ">
+                </button>
             </li>
         </ul>
     </nav>
@@ -76,6 +79,7 @@ switch ($page) {
         case 'movies':          include 'movies_page.php';          break;
         case 'series':          include 'series_page.php';          break;
         case 'register_form':   include 'register_page.php';        break;
+        case 'user_info':       include 'user_profile_page.php';    break;
         default:                include 'index_page_content.php';
     }
 
