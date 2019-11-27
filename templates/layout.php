@@ -1,16 +1,7 @@
 <?php
+include 'scripts/page_switchers.php';
 
-$page = $_GET['page'];
-$title = '';
 
-switch ($page) {
-    case 'main':            $title = "Main Page";               break;
-    case 'movies':          $title = "Movies";                  break;
-    case 'series':          $title = "Series";                  break;
-    case "register_form":   $title = "Sign Up";                 break;
-    case 'user_info':       $title = "Profile";                 break;
-    default:                $title = "Main Page";
-}
 
 
 
@@ -22,7 +13,7 @@ switch ($page) {
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link href="css/normalize.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700" rel="stylesheet">
-    <title><?=$title?></title>
+    <title><?=switch_title($_GET['page']);?></title>
 </head>
 <body>
 <header>
@@ -46,29 +37,7 @@ switch ($page) {
     </nav>
     <!--Pop-UP Section -->
 
-    <div class="pop-up">
-        <div class="pop-up-container">
-            <h2 class="pop-up-title">Welcome!</h2>
-            <span class="pop-up-cross"></span>
-            <form class="pop-up-form" action=" " method="post">
-                <div class="field-container">
-                    <label class="pop-up-label" for="loginField">Enter your login</label>
-                    <input class="pop-up-login" type="text" name="login" id="loginField" required>
-                </div>
-                <div class="field-container">
-                    <label class="pop-up-label" for="Pswrd">Enter your password</label>
-                    <input class="pop-up-password" type="password" name="password" id="Pswrd" required>
-                </div>
-                <div class="field-container">
-                    <input class="pop-up-submit pop-up-signup" type="submit" name="submit" value="Submit">
-                    <a     class="forgot-pass"   href="#">I forgot my password!</a>
-                    <span class="or">OR</span>
-                    <a class="forgot-pass pop-up-signup" href="index.php?page=register_form">Sign Up</a>
-                </div>
-            </form>
-
-        </div>
-    </div>
+   <?=draw_popup();?>
 
     <!--Pop-UP Section -->
 </header>
@@ -77,14 +46,7 @@ switch ($page) {
     <?
 
 
-    switch ($page) {
-        case 'main':            include 'index_page_content.php';   break;
-        case 'movies':          include 'movies_page.php';          break;
-        case 'series':          include 'series_page.php';          break;
-        case 'register_form':   include 'register_page.php';        break;
-        case 'user_info':       include 'user_profile_page.php';    break;
-        default:                include 'index_page_content.php';
-    }
+    switch_page($_GET['page']);
 
 
     ?>
