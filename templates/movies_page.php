@@ -7,7 +7,7 @@
 
 
         <div class="filter-form-container">
-            <form action="" method="post">
+            <form class="filter-form" action="" method="post">
                 <fieldset class="form-fieldset">
                     <legend class="form-legend">Filters</legend>
                     <label for="filter-year">Year:</label>

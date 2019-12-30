@@ -17,6 +17,7 @@
 
             </fieldset>
             <input type="submit" class="submit-filter-button register-form-submit" name="register-form-submit" value="Submit">
+
         </form>
 
     </div>

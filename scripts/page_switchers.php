@@ -32,5 +32,5 @@ function switch_page($page) {
 }
 
 function sanitize_string($string) {
-    return $string = htmlentities(trim($string));
+    return $string = htmlspecialchars(trim($string));
 }
